@@ -7,4 +7,4 @@ def hello_world():
     return "<h1>Simple Flask Application!</h1>"
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
